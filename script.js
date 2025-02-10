@@ -70,7 +70,7 @@ class Canvas {
         this.loadAudio(); // Загружаем аудио
     }
     loadAudio() {
-        this.audio.src = "assets/my.mp3"; // Укажите путь к вашему файлу музыки
+        this.audio.src = "/assets/my.mp3"; // Укажите путь к вашему файлу музыки
         this.audio.loop = true; // Включаем зацикливание музыки
         this.audio.volume = 0.5; // Устанавливаем громкость (от 0 до 1)
         this.audio.play().catch((error) => {
